@@ -1,14 +1,15 @@
 {
-  "name": "vindao_nuxt",
+  "name": "nuxt_express_typescript",
   "version": "1.0.0",
-  "description": "Home page of the vindao web development company",
+  "description": "A boilerplate for nuxt with express and full typescript support",
   "author": "Vincent Schmitt (Vindao)",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/server/index.ts --watch server",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production ts-node --project 'src/server/tsconfig.json' src/server/index.ts",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "git:commit": "git add . && git commit -m"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
