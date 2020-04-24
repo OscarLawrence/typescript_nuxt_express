@@ -9,7 +9,8 @@
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production ts-node --project 'src/server/tsconfig.json' src/server/index.ts",
     "generate": "nuxt generate",
-    "git:commit": "git add . && git commit -m"
+    "git:commit": "git add . && git commit -m",
+    "git:push": "git push origin "
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
